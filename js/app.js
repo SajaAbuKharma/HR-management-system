@@ -129,5 +129,5 @@ function renderEmployeeInfo() {
 ` 
 } 
  
-renderEmployeeInfo();
-PrintEmp(employeeInfo);
+renderEmployeeInfo(); 
+renderEmployeeInfo
