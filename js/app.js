@@ -1,4 +1,4 @@
-'use strict';
+'use strict' ;
 
 let emp1 = { 
     ID: getEmployeeID(), 
@@ -130,3 +130,4 @@ function renderEmployeeInfo() {
 } 
  
 renderEmployeeInfo();
+PrintEmp(employeeInfo);
