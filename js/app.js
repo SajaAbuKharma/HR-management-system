@@ -1,8 +1,6 @@
-'use strict';
+'use srtict'
 
-/**************************************************************/
-
-                              function Emp (id,name,departement,Level,img,salary){
+                              function Emp(id,name,departement,Level,img,salary){
     this. EmlpoyeeId=id;
     this. FullName=name;
     this. Departement=departement;
@@ -10,7 +8,7 @@
      this.image=img;
      this.Salary=salary;
  }
-    /*********************************************************/
+  
  
                                 function generateEmployeeId() {
      let employeeId;
@@ -23,7 +21,7 @@
      usedIds.add(employeeId);
      return employeeId;
    }
-    /****************************************************/
+    
                               function calculateSalary(level){
      let salaryRange={
          Senior: { min: 1500, max: 2000 },
@@ -38,7 +36,7 @@
 
                                   return netSalary;
  };
- /***************************************************** */
+ 
  
  let Ghazi
 
@@ -60,7 +58,7 @@
   =new Emp(generateEmployeeId(),"Rana Saleh","Development","Junior","",calculateSalary("Junior"));
   let Hadi
 
-  =new Emp(generateEmployeeId(),"Hadi Ahmad","Finance","Mid-Senior","",calculateSalary("Midsenior"));
+  =new Emp (generateEmployeeId(),"Hadi Ahmad","Finance","Mid-Senior","",calculateSalary("Midsenior"));
  
  
    
@@ -70,7 +68,7 @@
      
    
         
-    /************************************************************* */ 
+    
 
      Emp.prototype.renderEmployees = function() {
                                let main = document.getElementsByTagName("main")[0];
@@ -113,7 +111,7 @@
         
 
      }
-     /*********************TheEnd********************************************* */
+    
     
      
            
